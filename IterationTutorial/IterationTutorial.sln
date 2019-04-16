@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationTutorial", "IterationTutorial\IterationTutorial.csproj", "{281DD4D3-6C34-4E12-B1D2-A85445430491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationDrill", "..\IterationDrill\IterationDrill.csproj", "{0804EBE1-D17D-4A16-BB02-FD485E0B9A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281DD4D3-6C34-4E12-B1D2-A85445430491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281DD4D3-6C34-4E12-B1D2-A85445430491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281DD4D3-6C34-4E12-B1D2-A85445430491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281DD4D3-6C34-4E12-B1D2-A85445430491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0804EBE1-D17D-4A16-BB02-FD485E0B9A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0804EBE1-D17D-4A16-BB02-FD485E0B9A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0804EBE1-D17D-4A16-BB02-FD485E0B9A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0804EBE1-D17D-4A16-BB02-FD485E0B9A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {990ECFED-E3DC-4C2F-AFE4-366685EA8127}
+	EndGlobalSection
+EndGlobal
