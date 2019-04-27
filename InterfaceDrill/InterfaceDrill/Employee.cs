@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceDrill
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
         public override void SayName()
         {
@@ -16,7 +16,10 @@ namespace InterfaceDrill
         {
             Console.WriteLine("This Employee Has Quit.");
         }
-        public static Boolean operator == (Employee emp1, Employee emp2)
+
+        public List<T> things { get; set; }
+
+        public static Boolean operator == (Employee<T> emp1, Employee<T> emp2)
         {
             if (emp1.firstName != emp2.firstName)
             {
@@ -31,7 +34,7 @@ namespace InterfaceDrill
                 return true;
             }
         }
-        public static Boolean operator != (Employee emp1, Employee emp2)
+        public static Boolean operator != (Employee<T> emp1, Employee<T> emp2)
         {
             if (emp1.firstName != emp2.firstName)
             {
